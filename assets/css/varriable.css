@@ -1,0 +1,88 @@
+*{
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+body {
+	color: #555;
+	font-family: 'Montserrat', sans-serif;
+    background-color: beige;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px; 
+	font-family: 'Palanquin Dark', sans-serif;
+	color: #222;
+	font-weight: 600;
+}
+
+a{
+    color: #555;
+    text-decoration: none;
+	transition: all 0.2s ease 0s;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: #FF9933;
+}
+
+
+.container{
+    width: 1170px;
+}
+
+.row{
+    margin: 0px -15px;
+}
+
+.col-1{width: 8.333%}
+.col-2{width: 16.666%}
+.col-3{width: 25%}
+.col-4{width: 33.332%}
+.col-5{width: 41.665%}
+.col-6{width: 50%;}
+.col-7{width: 58.331%}
+.col-8{width: 66.664%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.663%}
+.col-12{width: 100%}
+
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12{
+    padding: 0px 15px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.m0{
+    margin: 0px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
